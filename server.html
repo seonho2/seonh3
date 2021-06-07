@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="팀프로젝트 소개, 전자기기정보 ">
+  <meta name="description" context="팀홈페이지를 만들어 봅니다.">
+  <meta name="author" context="Seonho Kim, 김선호">
+  <title>전자뉴스 </title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="logo">전자제품의</span> 정보 </h1>
+      </div>
+      <nav>
+        <li> <a href="./home.html">Home</a></li>
+        <li> <a href="./samsung.html">Samsung</a></li>
+        <li> <a href="./LG.html">LG</a></li>
+        <li> <a href="./Apple.html">Apple</a></li>
+        <li> <a href="./Curious.html">Curious</a></li>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="name">
+    <h2> 문의사항 </h2>
+  </section>
+  <section class="message">
+    <h2>모든 궁금 하신 것을 보내셔도 됩니다.</h2>
+    <form action="./server.html">
+
+      <label for="name">이름</label> <br>
+      <div class="box2">
+        <input type="text" placeholder="Name" required>
+      </div>
+
+      <label for="umail">이메일</label> <br>
+      <div class="box2">
+        <input type="email" placeholder="Email address" required>
+      </div>
+
+      <label for="message">문의내용</label> <br>
+      <div class="box2">
+        <textarea rows="10" placeholder="Message"></textarea>
+      </div>
+
+      <input type="submit" value="보내기">
+      <input type="reset" value="취소">
+    </form>
+  </section>
+
+  <script src="./Java/main.js"></script>
+  <script src="./Java/java.js"></script>
+  <footer>
+    <p>
+      copyright &copy; 2021, 전자뉴스
+    </p>
+  </footer>
+</body>
+
+</html>
